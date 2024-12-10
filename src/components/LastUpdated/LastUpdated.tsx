@@ -31,7 +31,8 @@ export const LastUpdated = () => {
                         {error && (
                             <>
                                 Last update is unkown. <StyledError>We failed fetching the data... </StyledError>
-                                {process.env.NODE_ENV} & {process.env.REACT_APP_CURRENCY_API_KEY}
+                                {process.env.NODE_ENV} & {process.env.REACT_APP_CURRENCY_API_KEY} &{" "}
+                                {process.env.CURRENCY_API_KEY}
                             </>
                         )}
                         {isLoading && (
