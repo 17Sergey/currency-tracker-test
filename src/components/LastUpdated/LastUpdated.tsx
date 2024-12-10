@@ -30,7 +30,7 @@ export const LastUpdated = () => {
                     <StyledCaption>
                         {error && (
                             <>
-                                Last update is unkown. <StyledError>We failed fetching the data...</StyledError>
+                                Last update is unkown. <StyledError>We failed fetching the data... </StyledError>
                             </>
                         )}
                         {isLoading && (
