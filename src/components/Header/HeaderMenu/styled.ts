@@ -1,8 +1,8 @@
 import { Link } from "react-router";
 import styled from "styled-components";
 
-import BurgerIcon from "@assets/icons/burgerMenu.svg";
-import CrossIcon from "@assets/icons/crossIcon.svg";
+import BurgerIcon from "@assets/icons/BurgerMenu.svg";
+import CrossIcon from "@assets/icons/CrossIcon.svg";
 import { device } from "@styles/breakpoints";
 
 export const StyledNav = styled.nav`
